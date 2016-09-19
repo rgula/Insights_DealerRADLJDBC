@@ -2,7 +2,6 @@ package com.insights.models;
 
 import org.hibernate.annotations.JoinColumnOrFormula;
 import org.springframework.data.annotation.Id;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -78,7 +77,7 @@ public class DealerRADL implements Serializable {
     @Column(name = "fiscl_yr")
     private String FiscalYr;
 
-    //Acre Information
+    // Area Information
 
     @Id
     @Column(name = "dlr_tot_area_qty")
@@ -104,7 +103,7 @@ public class DealerRADL implements Serializable {
     @Column(name = "SLS_FRCST_TOT_BDGT")
     private float SlsFcstTotalBudget;
 
-    //Corn Columns
+    // Corn Columns
 
     @Id
     @Column(name = "corn_fsa_area_cy")
@@ -171,7 +170,7 @@ public class DealerRADL implements Serializable {
     private float CornTotalSlsQtyCYM3;
 
 
-    //Soy Columns
+    // Soy Columns
 
     @Id
     @Column(name = "soy_fsa_area_cy")
@@ -237,7 +236,7 @@ public class DealerRADL implements Serializable {
     @Column(name = "soy_total_sls_cym3_qty")
     private float SoyTotalSlsQtyCYM3;
 
-    //Getters and Setters
+    // Getters and Setters
 
     public String getCountryCd() {
 
